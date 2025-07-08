@@ -56,8 +56,10 @@ git push -u origin main
 ```
 
 ## Commit History
-Initial Commit
-Save to machine
-update readme
-update readme
-update readme
+
+- Initial Commit
+- Save to machine
+- update readme
+- update readme
+- update readme
+- format readme
