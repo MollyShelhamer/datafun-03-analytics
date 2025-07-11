@@ -1,6 +1,6 @@
 # datafun-03-analytics
 
-Project to practice fetching and processing data, like Excel data, using Pythob
+Project to practice fetching and processing data, like Excel data, using Python
 
 ## Project Requirements
 
