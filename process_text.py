@@ -40,7 +40,7 @@ def count_word_occurrences(file_path: pathlib.Path, word: str) -> int:
 def process_text_file():
     """Read a text file, count occurrences of Shall, and save the result."""
  
-    input_file = pathlib.Path(FETCHED_DATA_DIR, "shakespeare.txt")
+    input_file = pathlib.Path(FETCHED_DATA_DIR, "romeo.txt")
 
     output_file = pathlib.Path(PROCESSED_DIR, "text_shall_word_count.txt")
 
