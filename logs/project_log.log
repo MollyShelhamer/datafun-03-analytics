@@ -159,3 +159,6 @@
 2025-07-11 23:18:47.931 | INFO     | get_csv:write_csv_file:84 - SUCCESS: CSV data written to raw_data\2020_happiness.csv
 2025-07-11 23:18:47.933 | INFO     | get_csv:fetch_csv_file:60 - SUCCESS: CSV file fetched and saved as 2020_happiness.csv
 2025-07-11 23:18:47.975 | INFO     | process_csv:process_csv_file:82 - Processed CSV file: raw_data\2020_happiness.csv, Statistics saved to: processed_data\happiness_ladder_score_stats.txt
+2025-07-11 23:32:27.710 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-07-11 23:33:28.180 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-07-11 23:35:27.828 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log

@@ -43,5 +43,5 @@ def main(file_type: str):
 
 
 if __name__ == "__main__":
-    main()
-    
+    file_type = sys.argv[1]
+    main(file_type)
