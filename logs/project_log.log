@@ -5,3 +5,7 @@
 2025-07-11 21:07:19.054 | INFO     | __main__:<module>:89 - Starting CSV processing...
 2025-07-11 21:07:19.070 | INFO     | __main__:process_csv_file:82 - Processed CSV file: raw_data\2020_happiness.csv, Statistics saved to: processed_data\happiness_ladder_score_stats.txt
 2025-07-11 21:07:19.071 | INFO     | __main__:<module>:91 - CSV processing complete.
+2025-07-11 21:28:21.204 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-07-11 21:28:21.204 | INFO     | __main__:<module>:77 - Starting Excel processing...
+2025-07-11 21:28:21.239 | INFO     | __main__:process_excel_file:70 - Processed Excel file: raw_data\Feedback.xlsx, Word count saved to: processed_data\excel_feedback_Microsoft_count.txt
+2025-07-11 21:28:21.240 | INFO     | __main__:<module>:79 - Excel processing complete.
