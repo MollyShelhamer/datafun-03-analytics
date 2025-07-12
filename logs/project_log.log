@@ -9,3 +9,37 @@
 2025-07-11 21:28:21.204 | INFO     | __main__:<module>:77 - Starting Excel processing...
 2025-07-11 21:28:21.239 | INFO     | __main__:process_excel_file:70 - Processed Excel file: raw_data\Feedback.xlsx, Word count saved to: processed_data\excel_feedback_Microsoft_count.txt
 2025-07-11 21:28:21.240 | INFO     | __main__:<module>:79 - Excel processing complete.
+2025-07-11 21:46:09.180 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-07-11 21:46:09.180 | INFO     | __main__:<module>:113 - Starting JSON processing...
+2025-07-11 21:46:09.190 | ERROR    | __main__:count_astronauts_by_craft:84 - Error reading or processing JSON file: 'int' object is not subscriptable
+2025-07-11 21:46:09.192 | INFO     | __main__:process_json_file:106 - Processed JSON file: raw_data\astros.json, Results saved to: processed_data\json_astronauts_by_craft.txt
+2025-07-11 21:46:09.192 | INFO     | __main__:<module>:115 - JSON processing complete.
+2025-07-11 21:50:15.424 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-07-11 21:50:15.425 | INFO     | __main__:<module>:112 - Starting JSON processing...
+2025-07-11 21:50:15.426 | INFO     | __main__:process_json_file:105 - Processed JSON file: raw_data\astros.json, Results saved to: processed_data\json_astronauts_by_craft.txt
+2025-07-11 21:50:15.426 | INFO     | __main__:<module>:114 - JSON processing complete.
+2025-07-11 21:58:15.143 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-07-11 21:58:15.143 | INFO     | __main__:<module>:115 - Starting JSON processing...
+2025-07-11 21:58:15.144 | ERROR    | __main__:count_astronauts_by_craft:83 - Error reading or processing JSON file: 'int' object is not subscriptable
+2025-07-11 21:58:15.145 | INFO     | __main__:process_json_file:108 - Processed JSON file: raw_data\astros.json, Results saved to: processed_data\json_astronauts_by_craft.txt
+2025-07-11 21:58:15.145 | INFO     | __main__:<module>:117 - JSON processing complete.
+2025-07-11 22:01:26.881 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-07-11 22:01:26.881 | INFO     | __main__:<module>:118 - Starting JSON processing...
+2025-07-11 22:01:26.882 | ERROR    | __main__:count_astronauts_by_craft:86 - Error reading or processing JSON file: unsupported operand type(s) for +: 'dict' and 'int'
+2025-07-11 22:01:26.883 | INFO     | __main__:process_json_file:111 - Processed JSON file: raw_data\astros.json, Results saved to: processed_data\json_astronauts_by_craft.txt
+2025-07-11 22:01:26.883 | INFO     | __main__:<module>:120 - JSON processing complete.
+2025-07-11 22:01:47.150 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-07-11 22:01:47.151 | INFO     | __main__:<module>:118 - Starting JSON processing...
+2025-07-11 22:01:47.152 | ERROR    | __main__:count_astronauts_by_craft:86 - Error reading or processing JSON file: unsupported operand type(s) for +: 'dict' and 'int'
+2025-07-11 22:01:47.153 | INFO     | __main__:process_json_file:111 - Processed JSON file: raw_data\astros.json, Results saved to: processed_data\json_astronauts_by_craft.txt
+2025-07-11 22:01:47.153 | INFO     | __main__:<module>:120 - JSON processing complete.
+2025-07-11 22:03:01.160 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-07-11 22:03:01.160 | INFO     | __main__:<module>:118 - Starting JSON processing...
+2025-07-11 22:03:01.162 | INFO     | __main__:process_json_file:111 - Processed JSON file: raw_data\astros.json, Results saved to: processed_data\json_astronauts_by_craft.txt
+2025-07-11 22:03:01.162 | INFO     | __main__:<module>:120 - JSON processing complete.
+2025-07-11 22:08:29.877 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-07-11 22:08:29.878 | INFO     | __main__:<module>:118 - Starting JSON processing...
+2025-07-11 22:11:56.953 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-07-11 22:11:56.954 | INFO     | __main__:<module>:110 - Starting JSON processing...
+2025-07-11 22:11:56.955 | INFO     | __main__:process_json_file:103 - Processed JSON file: raw_data\astros.json, Results saved to: processed_data\json_astronauts_by_craft.txt
+2025-07-11 22:11:56.955 | INFO     | __main__:<module>:112 - JSON processing complete.
