@@ -43,3 +43,7 @@
 2025-07-11 22:11:56.954 | INFO     | __main__:<module>:110 - Starting JSON processing...
 2025-07-11 22:11:56.955 | INFO     | __main__:process_json_file:103 - Processed JSON file: raw_data\astros.json, Results saved to: processed_data\json_astronauts_by_craft.txt
 2025-07-11 22:11:56.955 | INFO     | __main__:<module>:112 - JSON processing complete.
+2025-07-11 22:16:49.546 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-07-11 22:16:49.547 | INFO     | __main__:<module>:66 - Starting text processing...
+2025-07-11 22:16:49.550 | INFO     | __main__:process_text_file:59 - Processed text file: raw_data\shakespeare.txt, Word count saved to: processed_data\text_shall_word_count.txt
+2025-07-11 22:16:49.550 | INFO     | __main__:<module>:68 - Text processing complete.
