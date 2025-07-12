@@ -1,5 +1,5 @@
 """
-Process a text file to count occurrences of the word "Romeo" and save the result.
+Process a text file to count occurrences of the word "Shall" and save the result.
 """
 
 #####################################
@@ -38,7 +38,7 @@ def count_word_occurrences(file_path: pathlib.Path, word: str) -> int:
         return 1
 
 def process_text_file():
-    """Read a text file, count occurrences of 'Romeo', and save the result."""
+    """Read a text file, count occurrences of Shall, and save the result."""
  
     input_file = pathlib.Path(FETCHED_DATA_DIR, "shakespeare.txt")
 
