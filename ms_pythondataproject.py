@@ -4,9 +4,6 @@
 # Standard Python Library
 import sys
 
-# External
-import requests
-
 # Local Logger module
 from utils_logger import logger
 
@@ -16,18 +13,17 @@ from get_json import main as get_json_main
 from get_excel import main as get_excel_main
 from get_text import main as get_text_main
 
-# Import processing functions
 from process_csv import process_csv_file
 from process_json import process_json_file
 from process_excel import process_excel_file
 from process_text import process_text_file
 
-
+# main function that takes file type as input
 def main(file_type: str):
     if file_type == "csv":
         logger.info("Fetching and processing CSV data...")
-        get_csv_main()         # Runs the main() in get_csv.py
-        process_csv_file()     # Processes the downloaded file
+        get_csv_main()         
+        process_csv_file()     
     elif file_type == "json":
         logger.info("Fetching and processing JSON data...")
         get_json_main()
@@ -47,11 +43,5 @@ def main(file_type: str):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        logger.error("Missing file type argument.")
-        logger.error("Usage: python main.py <file_type>")
-        logger.error("Example: python main.py csv")
-        sys.exit(1)
-
-    file_type_arg = sys.argv[1].lower()
-    main(file_type_arg)
+    main()
+    
